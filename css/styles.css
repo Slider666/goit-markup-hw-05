@@ -763,17 +763,22 @@
         height: 581px;
 
         background-color: var(--pure-white);
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: var(--border-radius);
     }
 
     .modal-button {
+        position: absolute;
+        top: 8px;
+        right: 8px;
+
         display: flex;
         justify-content: center;
         align-items: center;
 
-        padding: 6px;
-        margin-top: 6px;
-        margin-right: 6px;
-        margin-left: auto;
+        width: 30px;
+        height: 30px;
+        padding: 0;
 
         background-color: var(--pure-white);
         border: 1px solid rgba(0, 0, 0, 0.1);
